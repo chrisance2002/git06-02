@@ -9,7 +9,7 @@ public class reverse {
         for(int i=0;i<reverse.length();i++){
             reversed=reverse.charAt(i)+reversed;
         }
-        System.out.println("Reversed string is:"+reversedD);
+        System.out.println("Reversed string is:"+reversed);
 
     }
         
