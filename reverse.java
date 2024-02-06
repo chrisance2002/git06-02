@@ -1,12 +1,14 @@
-
+import java.util.Scanner;
 public class reverse {
 
     public static void  main(String[] args){
-        String D="Dhanya";
+        Scanner r= new Scanner(System.in);
+        System.out.println("Enter the name of a string:");
+        String rev=r.nextLine();
+        
         String reverse="";
-        System.out.println("My name:"+D);
-        for(int i=0;i<D.length();i++){
-            reverse=D.charAt(i)+reverse;
+        for(int i=0;i<rev.length();i++){
+            reverse=rev.charAt(i)+reverse;
         }
         System.out.println("Reversed string is:"+reverse);
 
