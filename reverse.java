@@ -4,17 +4,14 @@ public class reverse {
     public static void  main(String[] args){
         Scanner r= new Scanner(System.in);
         System.out.println("Enter the name of a string:");
-        String rev=r.nextLine();
-        
-        String reverse="";
-        for(int i=0;i<rev.length();i++){
-            reverse=rev.charAt(i)+reverse;
+        String reverse=r.nextLine();
+        String reversed="";
+        for(int i=0;i<reverse.length();i++){
+            reversed=reverse.charAt(i)+reversed;
         }
-        System.out.println("Reversed string is:"+reverse);
+        System.out.println("Reversed string is:"+reversedD);
 
     }
-
-
         
     }
     
