@@ -4,7 +4,7 @@ public class circle {
         float pi=3.14f;
         float areaaaa=pi*r*r;
         float perimeter=2*pi*r;
-        System.out.println("Area of circle:"+area);
+        System.out.println("Area of circle:"+areaaaa);
         System.out.println("peri of a circle:"+perimeter);
 
     }
